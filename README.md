@@ -10,7 +10,8 @@ Steps to run the yml file:</br>
   This project help us to moniter and manage all the containers running in the host and we can see it through a web app 
   Web app can be accessed using the port 4040 or  
   link:http://localhost:4040/ 
-  And also we can access it in LAN using the ip of our host and accessing port 4040 of that ip 
+  And also we can access only if we are in the same LAN as the host using the ip of our host and accessing port 4040 of that ip.</br>
+  The above condition is applicable only if you have a private ip on your host system.
   
   <center><b>ABOUT THE PROJECT</b></br></center>
  The main idea behind docker is to run different modules or services individually in an isolated environment but still not taking up separate resources to execute and run as several services or modules can run on a single host using the host resources and sharing then among all the containers running at an instant. This makes dockers fast and more efficient.
